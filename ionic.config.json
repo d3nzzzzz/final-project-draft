@@ -1,7 +1,7 @@
 {
-  "name": "appv2",
+  "name": "final-project-draft",
   "integrations": {
     "capacitor": {}
   },
-  "type": "angular-standalone"
+  "type": "angular"
 }
