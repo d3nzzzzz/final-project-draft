@@ -1,13 +1,25 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>viewappointment</ion-title>
+    <ion-title>Appointments</ion-title><ion-button href="/dashboard" size="small">Back</ion-button>
   </ion-toolbar>
+
+<ion-list>
+  <ion-item-group>
+    <ion-item-divider>
+      <ion-label> Section A </ion-label>
+    </ion-item-divider>
+    </ion-item-group>
+</ion-list>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">viewappointment</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+<ion-list>
+<ion-button color="success" fill="clear">Appointment 1</ion-button>
+<br>
+<ion-button color="success" fill="clear">Appointment 2</ion-button>
+<br>
+<ion-button color="success" fill="clear">Appointment 3</ion-button>
+<br>
+</ion-list>
 </ion-content>
+
