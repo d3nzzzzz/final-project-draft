@@ -10,8 +10,7 @@
 
 <ion-list>
 <ion-grid>
-  <ion-col class="ion-text-center">
-
+  <ion-col>
 <br>
 <ion-button href="/viewappointment" color="success" style="width: 100%">View Appointment</ion-button>
 <br>
@@ -34,7 +33,6 @@
 <br>
 <br>
 <ion-button color="success" style="width: 100%">Feedback</ion-button>
-
   </ion-col>
 </ion-grid> 
 </ion-list>
@@ -46,15 +44,38 @@
     <ion-toolbar>
       <ion-buttons slot="start">
         <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-buttons slot="end">
+          <ion-button href="/notification"><ion-icon name="notifications"></ion-icon></ion-button>
       </ion-buttons>
       <ion-title>Dashboard</ion-title>
     </ion-toolbar>
   </ion-header>
   <br>
-  <ion-content class="ion-text-center"> <img src="assets/icon1.png" alt="book-massage" width="700"> 
-    <h1>Contents Here</h1> 
-    <h2>Contents here</h2>
-    <p>Enter your paragraphs here</p> 
-  </ion-content>
+  <ion-list>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>What is Ventosa?</ion-card-title>
+        <ion-card-subtitle>Offered Services!</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content class="content">
+        <iframe width="auto" height="250" src="https://www.youtube.com/embed/InlxUxtVWaE" title="What You Need to Know about Cupping"></iframe>
+      </ion-card-content>
+      </ion-card>
+    </ion-list>
+    <ion-list>
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>
+            What is Massage?
+            <ion-card-content class="ion-text-justify">
+              Massage is a type of integrative medicine in which a massage therapist manipulates 
+              your skin, muscles, tendons and ligaments. In massage therapy, a trained, certified medical professional (massage therapist) manipulates the soft tissues 
+              of your body — muscle, connective tissue, tendons, ligaments and skin.
+            </ion-card-content>
+          </ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </ion-list>
 </div>
 

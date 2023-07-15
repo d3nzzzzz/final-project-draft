@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 @Component({
@@ -8,7 +7,7 @@ import { IonicModule } from '@ionic/angular';
   templateUrl: './viewappointment.page.html',
   styleUrls: ['./viewappointment.page.scss'],
   standalone: true,
-  imports: [IonicModule, CommonModule, FormsModule]
+  imports: [IonicModule, CommonModule]
 })
 export class ViewappointmentPage implements OnInit {
 
