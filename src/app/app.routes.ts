@@ -29,6 +29,10 @@ export const routes: Routes = [
   {
     path: 'notification',
     loadComponent: () => import('./notification/notification.page').then( m => m.NotificationPage)
+  },  {
+    path: 'pendapp',
+    loadComponent: () => import('./pendapp/pendapp.page').then( m => m.PendappPage)
   },
+
 
 ];
