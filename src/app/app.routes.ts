@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { ExampleComponent } from './example/example.component';
 
 export const routes: Routes = [
   {
@@ -25,6 +26,10 @@ export const routes: Routes = [
   {
     path: 'signup',
     loadComponent: () => import('./signup/signup.page').then( m => m.SignupPage)
+  },
+  {
+    path: 'notification',
+    loadComponent: () => import('./notification/notification.page').then( m => m.NotificationPage)
   },
 
 ];
